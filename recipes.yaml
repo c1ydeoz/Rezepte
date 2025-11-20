@@ -1,0 +1,94 @@
+recipes:
+  - id: coq-au-vin
+    category: herzhaft
+    img: img/coq_au_vin_opt.jpg
+    time: "2h 30min"
+    diff: 3
+    baseServ: 4
+    suggested: pasta-aglio
+    tags:
+      - "🇫🇷 Klassiker"
+      - "🍷 Mit Wein"
+      - "Slow Food"
+    nutrition:
+      cal: 650
+      pro: 45
+      carb: 12
+      fat: 38
+    de:
+      title: Coq au Vin
+      subtitle: Französischer Klassiker in Rotwein geschmort.
+      label: 🇫🇷 Frankreich
+      fact: Traditionell wird ein alter Hahn verwendet, der erst durch langes Schmoren zart wird.
+      ingredients:
+        - { name: Hähnchenschenkel, amount: 4, unit: Stk }
+        - { name: Rotwein, amount: 500, unit: ml }
+        - { name: Speckwürfel, amount: 150, unit: g }
+        - { name: Champignons, amount: 250, unit: g }
+        - { name: Hühnerfond, amount: 250, unit: ml }
+      prep:
+        - Gemüse waschen.
+        - Fleisch tupfen.
+      steps:
+        - Speck anbraten.
+        - Fleisch anbraten.
+        - Schmoren lassen.
+    ru:
+      title: Петух в вине
+      subtitle: Французская классика в красном вине.
+      label: 🇫🇷 Франция
+      fact: Традиционно используется старый петух, который становится мягким только после долгого тушения.
+      ingredients:
+        - { name: Куриные ножки, amount: 4, unit: шт }
+        - { name: Красное вино, amount: 500, unit: мл }
+        - { name: Бекон, amount: 150, unit: г }
+        - { name: Шампиньоны, amount: 250, unit: г }
+        - { name: Куриный бульон, amount: 250, unit: мл }
+      prep:
+        - Помыть овощи.
+        - Обсушить мясо.
+      steps:
+        - Обжарить бекон.
+        - Обжарить мясо.
+        - Тушить до готовности.
+
+  - id: bananen-shake
+    category: sweet
+    img: https://images.unsplash.com/photo-1584586629529-2bc6a67d8467?q=80&w=800&auto=format&fit=crop
+    time: "5 min"
+    diff: 1
+    baseServ: 1
+    suggested: coq-au-vin
+    tags:
+      - "⚡ Schnell"
+      - "💪 Protein"
+      - "Vegetarisch"
+    nutrition:
+      cal: 320
+      pro: 25
+      carb: 40
+      fat: 8
+    de:
+      title: Bananen Shake
+      subtitle: Power Drink.
+      label: Energie
+      fact: Bananen sind botanisch gesehen Beeren.
+      ingredients:
+        - { name: Banane, amount: 1, unit: Stk }
+        - { name: Milch, amount: 200, unit: ml }
+      prep:
+        - Banane schälen
+      steps:
+        - Mixen.
+    ru:
+      title: Банановый шейк
+      subtitle: Энергетический напиток.
+      label: Энергия
+      fact: Бананы - это ягоды.
+      ingredients:
+        - { name: Банан, amount: 1, unit: шт }
+        - { name: Молоко, amount: 200, unit: мл }
+      prep:
+        - Очистить банан
+      steps:
+        - Взбить.
