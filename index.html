@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Digitales Kochbuch</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar-overlay" id="sidebar-overlay" onclick="toggleSidebar()"></div>
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <span data-i18n="menu">Menü</span>
+        <button class="close-btn" onclick="toggleSidebar()">&times;</button>
+    </div>
+    <div id="nav-content">
+        </div>
+</aside>
+
+<div class="top-bar">
+    <button class="menu-btn" onclick="toggleSidebar()">
+        <span>☰</span> <span data-i18n="recipes">Rezepte</span>
+    </button>
+
+    <div class="lang-switch">
+        <span class="lang-opt active" id="lang-de" onclick="setLanguage('de')">DE</span>
+        <span style="color:#ddd">|</span>
+        <span class="lang-opt" id="lang-ru" onclick="setLanguage('ru')">RU</span>
+    </div>
+</div>
+
+<div class="app-container">
+    <main class="recipe-layout fade-in" id="main-content"></main>
+</div>
+
+<script src="data.js"></script>
+<script src="logic.js"></script>
+
+</body>
+</html>
