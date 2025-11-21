@@ -257,7 +257,7 @@ function renderRecipe(id) {
         </ol>
         <div class="notes-section">
             <h3>${t("notes")}</h3>
-            <textarea class="notes-area" id="user-notes" placeholder="${t("note_placeholder")}"></textarea>
+            <textarea class="notes-area" id="user-notes" placeholder="${t("")}"></textarea>
         </div>
     `;
 
