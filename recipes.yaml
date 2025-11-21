@@ -88,6 +88,295 @@ recipes:
         - Снять крышку, уварить соус 5 минут, добавить масло, посолить и поперчить.
         - Подавать с картофелем и петрушкой.
 
+  - id: ungarische-gulaschsuppe
+    category: herzhaft
+    img: img/gulaschsuppe_opt.jpg
+    time: "1h 45min"
+    diff: 3
+    baseServ: 4
+    suggested: coq-au-vin
+    tags:
+      - "🇭🇺 Klassiker"
+      - "🥩 Deftig"
+      - "Slow Food"
+    nutrition:
+      cal: 420
+      pro: 32
+      carb: 35
+      fat: 16
+    de:
+      title: Ungarische Gulaschsuppe
+      subtitle: Kräftige, paprikawürzige Suppe mit Rindfleisch und Gemüse.
+      label: 🇭🇺 Ungarn
+      fact: Wird am nächsten Tag noch intensiver, da das Fleisch weiter zartisiert.
+      ingredients:
+        - { name: Rindergulasch (Schulter oder Wade), amount: 500, unit: g }
+        - { name: Zwiebeln, amount: 2, unit: Stk }
+        - { name: "Paprika (rot & grün)", amount: 2, unit: Stk }
+        - { name: Kartoffeln (weichkochend), amount: 3, unit: Stk }
+        - { name: Karotten, amount: 2, unit: Stk }
+        - { name: Knoblauchzehen, amount: 2, unit: Stk }
+        - { name: Paprikapulver edelsüß, amount: 2, unit: EL }
+        - { name: Rauchpaprika, amount: 1, unit: TL }
+        - { name: Tomatenmark, amount: 1, unit: TL }
+        - { name: Lorbeerblatt, amount: 1, unit: Stk }
+        - { name: Thymian oder Majoran, amount: 0.5, unit: TL }
+        - { name: Rinder- oder Gemüsebrühe, amount: 1200, unit: ml }
+        - { name: Öl oder Schmalz, amount: 2, unit: EL }
+        - { name: "Salz & Pfeffer", amount: "-", unit: nach Geschmack }
+        - { name: Petersilie, amount: "-", unit: zum Garnieren }
+      prep:
+        - Zwiebeln würfeln, Paprika grob schneiden (2–3 cm), Karotten in Scheiben schneiden, Knoblauch hacken.
+        - Kartoffeln wegen der weichkochenden Sorte in 3–4 cm große Stücke schneiden.
+        - Fleisch trocken tupfen und leicht salzen.
+      steps:
+        - Fleisch in heißem Öl portionsweise 4–6 Minuten kräftig anbraten und herausnehmen.
+        - Zwiebeln im selben Topf anbraten, Knoblauch kurz mitrösten.
+        - Tomatenmark, edelsüßes Paprikapulver und Rauchpaprika einrühren und 20–30 Sekunden anrösten.
+        - Fleisch zurückgeben, mit Brühe aufgießen, Lorbeer und Thymian/Majoran zugeben.
+        - 75–90 Minuten sanft schmoren lassen (kaum simmernd), bis das Fleisch weich wird.
+        - Karotten & Kartoffeln 20–25 Minuten vor Ende zugeben (wegen weichkochender Sorte große Stücke).
+        - Paprika 10–12 Minuten vor Ende zugeben.
+        - Mit Salz, Pfeffer und etwas Essig oder Zitronensaft abschmecken.
+        - Mit Petersilie servieren. Am nächsten Tag ist das Fleisch noch zarter.
+    ru:
+      title: Венгерский гуляш-суп
+      subtitle: Насыщенный суп с говядиной, паприкой и овощами.
+      label: 🇭🇺 Венгрия
+      fact: На следующий день вкус становится глубже, а мясо — заметно мягче.
+      ingredients:
+        - { name: Говядина для гуляша (лопатка или голяшка), amount: 500, unit: г }
+        - { name: Лук, amount: 2, unit: шт }
+        - { name: Болгарский перец (красный и зелёный), amount: 2, unit: шт }
+        - { name: Картофель (разваривающийся), amount: 3, unit: шт }
+        - { name: Морковь, amount: 2, unit: шт }
+        - { name: Чеснок, amount: 2, unit: зуб }
+        - { name: Паприка сладкая, amount: 2, unit: стл }
+        - { name: Копчёная паприка, amount: 1, unit: чл }
+        - { name: Томатная паста, amount: 1, unit: чл }
+        - { name: Лавровый лист, amount: 1, unit: шт }
+        - { name: Тимьян или майоран, amount: 0.5, unit: чл }
+        - { name: Говяжий/овощной бульон, amount: 1200, unit: мл }
+        - { name: Масло или смалец, amount: 2, unit: стл }
+        - { name: Соль и перец, amount: "-", unit: по вкусу }
+        - { name: Петрушка, amount: "-", unit: для подачи }
+      prep:
+        - Нарезать лук, перец (крупно 2–3 см), морковь кружочками, чеснок измельчить.
+        - Картофель (разваривающийся) нарезать крупными кусками 3–4 см.
+        - Обсушить мясо и слегка посолить.
+      steps:
+        - Обжарить мясо партиями 4–6 минут и убрать.
+        - Обжарить лук, затем добавить чеснок.
+        - Вмешать томатную пасту, сладкую и копчёную паприку, прогреть 20–30 секунд.
+        - Вернуть мясо, влить бульон, добавить лавровый лист и тимьян/майоран.
+        - Тушить 75–90 минут на слабом огне, пока мясо не станет мягким.
+        - Добавить морковь и картофель за 20–25 минут до конца приготовления.
+        - Перец болгарский добавить за 10–12 минут до окончания.
+        - Посолить, поперчить и добавить немного уксуса или лимона.
+        - Подавать с петрушкой. На следующий день вкус ярче.   
+
+  - id: pilz-haehnchen-risotto
+    category: herzhaft
+    img: img/pilz_haehnchen_risotto.jpg
+    time: "35min"
+    diff: 2
+    baseServ: 3
+    suggested: bananen-shake
+    tags:
+      - "🇮🇹 Italienisch"
+      - "Cremig"
+      - "One-Pot"
+      - "Mit Fleisch"
+
+    nutrition:
+      cal: 620
+      pro: 42
+      carb: 58
+      fat: 22
+
+    de:
+      title: Pilz-Hähnchen-Risotto
+      subtitle: Cremiges Risotto mit gebratenem Hähnchen und Pilzen.
+      label: 🇮🇹 Italien
+      fact: Die perfekte Konsistenz eines Risottos nennt man *all’onda* – „wie eine Welle“.
+      ingredients:
+        - { name: Risotto-Reis (Arborio/Carnaroli), amount: 250, unit: g }
+        - { name: Hähnchenbrustfilet, amount: 600, unit: g }
+        - { name: Champignons, amount: 200, unit: g }
+        - { name: Zwiebel, amount: 1, unit: Stk }
+        - { name: Knoblauchzehen, amount: 2, unit: Stk }
+        - { name: Gemüsebrühe, amount: 750, unit: ml }
+        - { name: Weißwein (trocken), amount: 100, unit: ml }
+        - { name: Parmesan, amount: 40, unit: g }
+        - { name: Butter, amount: 2, unit: EL }
+        - { name: Olivenöl, amount: 2, unit: EL }
+        - { name: Petersilie (optional), amount: 1, unit: Bund }
+        - { name: "Salz & Pfeffer", amount: "", unit: n.B. }
+
+      prep:
+        - Brühe erhitzen und warmhalten.
+        - Hähnchen würfeln, mit Salz und Pfeffer würzen.
+        - Pilze putzen und in Scheiben schneiden.
+        - Zwiebel und Knoblauch fein hacken.
+        - Parmesan reiben, Petersilie hacken.
+
+      steps:
+        - Hähnchen in etwas Öl scharf anbraten, bis es Farbe hat. Herausnehmen.
+        - Zwiebel und Knoblauch glasig dünsten, Pilze zugeben und anbraten.
+        - Reis hinzufügen und 1–2 Minuten anschwitzen.
+        - Mit Weißwein ablöschen und einkochen lassen.
+        - Brühe kellenweise einarbeiten. Immer rühren, bis sie fast absorbiert ist.
+        - Nach ca. 10 Minuten das Hähnchen zurück in den Topf geben.
+        - Weitere 8–10 Minuten garen, bis der Reis al dente ist (insgesamt ca. 18–20 Min).
+        - Vom Herd nehmen, Butter und Parmesan einrühren. Abschmecken.
+        - Servieren und mit Petersilie sowie extra Parmesan garnieren.
+
+
+    tips:
+      - Die ideale Konsistenz ist *all’onda*: cremig, leicht fließend, nicht suppig.
+      - Wenn das Risotto zu fest ist: etwas heiße Brühe einrühren.
+      - Wenn zu flüssig: 1–2 Minuten länger einkochen.
+
+    ru:
+      title: Ризотто с курицей и грибами
+      subtitle: Кремовое ризотто с поджаренной курицей и шампиньонами.
+      label: 🇮🇹 Италия
+      fact: Идеальная консистенция называется *all’onda* — «как волна».
+      ingredients:
+        - { name: Рис для ризотто (Арборио/Карнароли), amount: 250, unit: г }
+        - { name: Куриная грудка, amount: 600, unit: г }
+        - { name: Шампиньоны, amount: 200, unit: г }
+        - { name: Луковица, amount: 1, unit: шт }
+        - { name: Зубчик чеснока, amount: 2, unit: шт }
+        - { name: Овощной бульон, amount: 750, unit: мл }
+        - { name: Белое сухое вино, amount: 100, unit: мл }
+        - { name: Пармезан, amount: 40, unit: г }
+        - { name: Сливочное масло, amount: 2, unit: ст.л }
+        - { name: Оливковое масло, amount: 2, unit: ст.л }
+        - { name: Петрушка (по желанию), amount: 1, unit: пучок }
+        - { name: Соль и перец, amount: "", unit: по вкусу }
+
+      prep:
+        - Подогреть бульон и держать горячим.
+        - Нарезать курицу кубиками, посолить и поперчить.
+        - Очистить и нарезать грибы.
+        - Мелко нарезать лук и чеснок.
+        - Натереть пармезан, нарубить петрушку.
+
+      steps:
+        - Обжарить курицу до румяной корочки. Убрать в сторону.
+        - Обжарить лук и чеснок, добавить грибы.
+        - Добавить рис и прожарить 1–2 минуты.
+        - Влить белое вино и выпарить.
+        - Постепенно добавлять горячий бульон, постоянно помешивая.
+        - Через ~10 минут добавить курицу обратно.
+        - Готовить ещё 8–10 минут, пока рис не станет аль денте.
+        - Снять с огня, вмешать масло и пармезан. Приправить.
+        - Подавать, посыпав петрушкой и дополнительным пармезаном.
+      tips:
+        - Ризотто должно быть кремовым и слегка текучим — *all’onda*.
+        - Слишком густо? Добавить немного бульона.
+        - Слишком жидко? Тушить пару минут без добавления жидкости.
+      
+  - id: drumsticks-mediterran
+    category: herzhaft
+    img: img/drumsticks_mediterran.jpg
+    time: "60 min"
+    diff: 1
+    baseServ: 3
+    suggested: bananen-shake
+    tags:
+      - "Mediterran"
+      - "Ofen"
+      - "Ein-Blech-Gericht"
+    nutrition:
+      cal: 720
+      pro: 55
+      carb: 38
+      fat: 38
+    de:
+      title: Mediterrane Hähnchen-Drumsticks mit Ofengemüse & Knoblauch-Joghurt-Dip
+      subtitle: Knusprige Drumsticks, aromatisches Gemüse und cremiger Dip.
+      label: 🇬🇷 Mediterran
+      fact: Durch das Öl auf dem Backpapier wird das Gemüse extra knusprig.
+      ingredients:
+        - { name: Hähnchen-Drumsticks, amount: 9, unit: Stk }
+        - { name: Kartoffeln, amount: 800, unit: g }
+        - { name: Zwiebeln, amount: 2, unit: Stk }
+        - { name: Paprika, amount: 2, unit: Stk }
+        - { name: Zucchini, amount: 200, unit: g }
+        - { name: Zitrone, amount: 1, unit: Stk }
+        - { name: Schafskäse (Feta), amount: 150, unit: g }
+        - { name: Olivenöl (für Blech + Gemüse), amount: 3, unit: EL }
+        - { name: Olivenöl (Marinade), amount: 6, unit: EL }
+        - { name: Knoblauch (Marinade), amount: 4, unit: Zehen }
+        - { name: Knoblauch (Dip), amount: 2, unit: Zehen }
+        - { name: Griechischer Joghurt, amount: 250, unit: g }
+        - { name: Paprikapulver edelsüß, amount: 1.5, unit: TL }
+        - { name: Rosmarin, amount: 2, unit: Zweige }
+        - { name: Thymian, amount: 2, unit: Zweige }
+        - { name: Zitronensaft (Marinade), amount: 3, unit: EL }
+        - { name: Zitronensaft (Dip), amount: 1, unit: EL }
+        - { name: Salz, amount: 2, unit: TL }
+        - { name: Pfeffer, amount: 1.5, unit: TL }
+        - { name: "Optional: Honig", amount: 1, unit: TL }
+        - { name: "Optional: Paprika geräuchert", amount: 0.5, unit: TL }
+
+      steps:
+        - Backofen auf 200 °C Umluft vorheizen.
+        - Backpapier auf ein Blech legen und mit 1–2 EL Olivenöl einstreichen.
+        - Marinade mischen 6 EL Olivenöl, 4–5 gepresste Knoblauchzehen, 1.5 TL Paprikapulver, Blätter von 2 Zweigen Rosmarin & 2 Zweigen Thymian, 3 EL Zitronensaft, 1.5 TL Salz, 1 TL Pfeffer. Optional 0.5 TL Rauchpaprika + 1 TL Honig.
+        - 9 Drumsticks (1,6–1,8 kg) mit der Marinade einreiben und 30–60 min ziehen lassen.
+        - Gemüse vorbereiten 800 g Kartoffeln in Spalten, 2 Zwiebeln in Spalten, 2 Paprika in Streifen, 200 g Zucchini in halbe Scheiben schneiden.
+        - Gemüse in Schüssel geben und mit 2 EL Olivenöl, 0.5–1 TL Salz und 0.5 TL Pfeffer mischen.
+        - Gemüse auf dem eingeölten Backpapier verteilen. ½ Zitrone in Scheiben schneiden und dazulegen.
+        - Marinierte Drumsticks auf das Gemüse setzen.
+        - 45–50 Minuten backen. Nach 25 Minuten einmal wenden oder leicht mit Marinade bepinseln.
+        - 150–200 g Feta in Stücken die letzten 10 Minuten mitbacken ODER komplett frisch nach dem Backen drüberbröseln.
+        - Dip zubereiten 250 g griechischer Joghurt, 2 gepresste Knoblauchzehen, 1 EL Olivenöl, 1 EL Zitronensaft, 0.5 TL Salz, Prise Pfeffer. 10–15 Minuten ziehen lassen.
+        - Alles zusammen anrichten, optional mit frischen Kräutern garnieren.
+
+    ru:
+      title: Средиземноморские куриные голени с овощами и чесночно-йогуртовым соусом
+      subtitle: Хрустящая курица, ароматные овощи и свежий соус.
+      label: 🇬🇷 Средиземноморская кухня
+      fact: Лист пергамента, смазанный маслом, делает картофель очень хрустящим.
+      ingredients:
+        - { name: Куриные голени, amount: 9, unit: Шт }
+        - { name: Картофель, amount: 800, unit: г }
+        - { name: Лук, amount: 2, unit: Шт }
+        - { name: Перец сладкий, amount: 2, unit: Шт }
+        - { name: Цукини, amount: 200, unit: г }
+        - { name: Лимон, amount: 1, unit: Шт }
+        - { name: Сыр фета, amount: 150, unit: г }
+        - { name: Оливковое масло (для противня + овощей), amount: 3, unit: Ст.л }
+        - { name: Оливковое масло (маринад), amount: 6, unit: Ст.л }
+        - { name: Чеснок (маринад), amount: 4, unit: Зубчика }
+        - { name: Чеснок (соус), amount: 2, unit: Зубчика }
+        - { name: Греческий йогурт, amount: 250, unit: г }
+        - { name: Паприка сладкая, amount: 1.5, unit: Ч.л }
+        - { name: Копчёная паприка, amount: 1, unit: Ч.л }
+        - { name: Розмарин, amount: 2, unit: Веточки }
+        - { name: Тимьян, amount: 2, unit: Веточки }
+        - { name: Лимонный сок (маринад), amount: 3, unit: Ст.л }
+        - { name: Лимонный сок (соус), amount: 1, unit: Ст.л }
+        - { name: Соль, amount: 2, unit: Ч.л }
+        - { name: Перец, amount: 1.5, unit: Ч.л }
+        - { name: "Опционально: мёд", amount: 1, unit: Ч.л }
+        - { name: "Опционально: копчёная паприка", amount: 0.5, unit: Ч.л }
+      steps:
+        - Разогреть духовку до 200 °C (конвекция).
+        - Застелить противень пергаментом и смазать 1–2 ст.л. оливкового масла.
+        - Приготовить маринад 6 ст.л. масла, 4–5 зубчиков чеснока, 1.5 ч.л. паприки, розмарин и тимьян (по 2 веточки), 3 ст.л. лимонного сока, 1.5 ч.л. соли, 1 ч.л. перца. По желанию 0.5 ч.л. копчёной паприки и 1 ч.л. мёда.
+        - Намазать маринадом 9 голеней и оставить на 30–60 минут.
+        - Подготовить овощи 800 г картофеля, 2 лука, 2 перца, 200 г цукини.
+        - Смешать овощи с 2 ст.л. масла, 0.5–1 ч.л. соли и 0.5 ч.л. перца.
+        - Выложить овощи на противень, добавить ломтики половины лимона.
+        - Разместить голени сверху.
+        - Запекать 45–50 минут, через 25 минут перевернуть.
+        - Фету (150–200 г) добавить за 10 минут до конца или посыпать после приготовления.
+        - Соус: смешать 250 г йогурта, 2 зубчика чеснока, 1 ст.л. масла, 1 ст.л. лимонного сока, 0.5 ч.л. соли, перец.
+        - Подавать вместе, при желании добавить свежую зелень.
 
   - id: bananen-shake
     category: sweet
@@ -129,3 +418,615 @@ recipes:
         - Очистить банан
       steps:
         - Взбить.
+
+  - id: kartoffel-lachs-auflauf
+    category: herzhaft
+    img: img/kartoffel_lachs_auflauf.jpg
+    time: "55–65 min"
+    diff: 2
+    baseServ: 3
+    suggested: gemischter-salat
+    tags:
+      - "Auflauf"
+      - "Fisch"
+      - "Hausmannskost"
+    nutrition:
+      cal: 650
+      pro: 38
+      carb: 52
+      fat: 32
+
+    de:
+      title: Kartoffelauflauf mit Lachs & TK-Gemüse
+      subtitle: Cremig, würzig und perfekt für schnelle Resteverwertung.
+      label: 🇩🇪 Europa
+      fact: Dieser Auflauf kombiniert französische Gratin-Technik mit skandinavischem Lachs.
+      ingredients:
+        - { name: Kartoffeln, amount: 800, unit: g }
+        - { name: TK-Gemüse-Mix, amount: 350, unit: g }
+        - { name: Lachs (frisch oder geräuchert), amount: 300, unit: g }
+        - { name: Schlagsahne, amount: 250, unit: ml }
+        - { name: Milch, amount: 150, unit: ml }
+        - { name: Zwiebel, amount: 1, unit: Stk }
+        - { name: Knoblauchzehe, amount: 1, unit: Stk }
+        - { name: Geriebener Käse, amount: 100, unit: g }
+        - { name: Butter oder Öl, amount: 1, unit: EL }
+        - { name: Salz, amount: 1, unit: TL }
+        - { name: Pfeffer, amount: 1, unit: Prise }
+        - { name: Muskat, amount: 1, unit: Prise }
+        - { name: Schnittlauch (frisch), amount: 2, unit: EL }
+
+      steps:
+        - "Die 800 g Kartoffeln schälen und in dünne Scheiben schneiden."
+        - "TK-Gemüse (ca. 350 g) in ein Sieb geben, mit heißem Wasser abspülen und gut abtropfen lassen."
+        - "1 Zwiebel und 1 Knoblauchzehe fein hacken und in 1 EL Butter/Öl anschwitzen."
+        - "Das angeschwitzte Zwiebel-Knoblauch-Gemisch mit dem TK-Gemüse vermengen."
+        - "300 g Lachs vorbereiten: frischen Lachs kurz anbraten, Räucherlachs direkt verwenden."
+        - "Auflaufform einfetten. Eine Schicht Kartoffeln hineinlegen, dann Gemüse, dann Lachs. Schichten wiederholen."
+        - "250 ml Sahne mit 150 ml Milch verrühren und mit 1 TL Salz, Pfeffer und Muskat würzen."
+        - "Sahnemischung gleichmäßig über den Auflauf gießen."
+        - "Mit 100 g geriebenem Käse bestreuen."
+        - "Bei 180 °C (Umluft 160 °C) 40–45 Minuten backen. Wenn die Kartoffeln noch fest sind: weitere 10–15 Minuten."
+        - "Nach dem Backen 5–10 Minuten ruhen lassen, damit die Sauce anzieht."
+        - "Mit 2 EL frisch geschnittenem Schnittlauch bestreuen und servieren."
+
+      notes:
+        - "Flüssigkeit am Rand ist normal, besonders durch TK-Gemüse."
+        - "Für eine festere Konsistenz 1 Ei in die Sahnemischung geben."
+        - "Räucherlachs ist salziger – Salzmenge entsprechend reduzieren."
+        - "Glasauflaufformen sind bis ca. 250 °C sicher, aber keine Temperaturschocks!"
+
+    ru:
+      title: Запеканка из картофеля с лососем и овощами
+      subtitle: Нежная сливочная запеканка с рыбой и овощами.
+      label: 🇪🇺 Европа
+      fact: Блюдо сочетает французскую технику гратена и скандинавский стиль приготовления рыбы.
+      ingredients:
+        - { name: Картофель, amount: 800, unit: г }
+        - { name: Замороженные овощи, amount: 350, unit: г }
+        - { name: Лосось (свежий или копчёный), amount: 300, unit: г }
+        - { name: Сливки, amount: 250, unit: мл }
+        - { name: Молоко, amount: 150, unit: мл }
+        - { name: Лук, amount: 1, unit: шт }
+        - { name: Зубчик чеснока, amount: 1, unit: шт }
+        - { name: Тёртый сыр, amount: 100, unit: г }
+        - { name: Масло или растительное масло, amount: 1, unit: ст.л }
+        - { name: Соль, amount: 1, unit: ч.л }
+        - { name: Перец, amount: 1, unit: щепотка }
+        - { name: Мускатный орех, amount: 1, unit: щепотка }
+        - { name: Зелёный лук (резаный), amount: 2, unit: ст.л }
+
+      steps:
+        - "Очистить 800 г картофеля и нарезать тонкими ломтиками."
+        - "Замороженные овощи (350 г) промыть горячей водой и хорошо обсушить."
+        - "Измельчить лук и чеснок, обжарить в 1 ст.л масла."
+        - "Смешать обжаренные лук и чеснок с овощами."
+        - "Подготовить 300 г лосося: свежий — слегка обжарить, копчёный — использовать сразу."
+        - "Смазать форму маслом. Выложить слоями: картофель → овощи → лосось. Повторить."
+        - "Смешать 250 мл сливок и 150 мл молока, добавить соль, перец и мускатный орех."
+        - "Залить смесью запеканку."
+        - "Посыпать 100 г тёртого сыра."
+        - "Запекать при 180°C 40–45 минут. Если картофель твёрдый — ещё 10–15 минут."
+        - "Дать постоять 5–10 минут, чтобы соус загустел."
+        - "Посыпать зелёным луком перед подачей."
+
+      notes:
+        - "Лёгкая жидкость по краям — это нормально."
+        - "Для более плотной структуры можно добавить 1 яйцо."
+        - "У копчёного лосося ярче вкус и больше соли."
+        - "Стеклянные формы выдерживают 180°C, но избегайте резких перепадов температуры."
+
+  - id: gefuellte-paprika
+    category: herzhaft
+    img: img/gefuellte_paprika_opt.jpg
+    time: "1h 00min"
+    diff: 2
+    baseServ: 3
+    suggested: bananen-shake
+    tags:
+      - "Hausmannskost"
+      - "Ohne Teigwaren"
+      - "Schmorgericht"
+
+    nutrition:
+      cal: 520
+      pro: 36
+      carb: 28
+      fat: 27
+
+    de:
+      title: Gefüllte Paprikaschoten mit Hackfleisch & Reis
+      subtitle: Klassisches Schmorgericht mit würziger Füllung und Tomatensoße.
+      label: 🇩🇪 Deutschland
+      fact: Paprikaschoten garen perfekt, wenn sie nur zur Hälfte in der Soße stehen – der Dampf übernimmt den Rest.
+      ingredients:
+        - { name: Paprikaschoten (rot/gelb), amount: 6, unit: Stk }
+        - { name: Hackfleisch, amount: 400, unit: g }
+        - { name: Reis, amount: 120, unit: g }
+        - { name: Zwiebel, amount: 1, unit: Stk }
+        - { name: Knoblauchzehen, amount: 2, unit: Stk }
+        - { name: Ei, amount: 1, unit: Stk }
+        - { name: Tomatenmark, amount: 2, unit: EL }
+        - { name: Stückige Tomaten, amount: 400, unit: g }
+        - { name: Gemüsebrühe, amount: 400, unit: ml }
+        - { name: Öl, amount: 2, unit: EL }
+        - { name: Paprikapulver edelsüß, amount: 1, unit: TL }
+        - { name: Oregano (getrocknet), amount: 1, unit: TL }
+        - { name: Salz, amount: "", unit: n. B. }
+        - { name: Pfeffer, amount: "", unit: n. B. }
+        - { name: Petersilie (frisch), amount: "", unit: etwas }
+
+      steps:
+        - "Reis in gesalzenem Wasser etwa 10 Minuten halbgar vorkochen, abgießen."
+        - "Zwiebel fein hacken, Knoblauch pressen. In 1 EL Öl glasig dünsten, Hackfleisch zugeben und krümelig braten. Mit Salz, Pfeffer, Paprikapulver und Oregano würzen."
+        - "Hack-Reis-Mischung mit 1 EL Tomatenmark und dem Ei in einer Schüssel vermengen."
+        - "Paprikaschoten oben aufschneiden, Kerne & Häute entfernen. Mit der Hackmischung füllen, Deckel wieder aufsetzen."
+        - "Für die Soße 1 EL Öl in großem Topf erhitzen, 1 EL Tomatenmark anrösten, dann stückige Tomaten und Gemüsebrühe zugeben. Mit Salz & Pfeffer abschmecken."
+        - "Gefüllte Paprika in die Soße setzen. Nur zur Hälfte bedecken – der Dampf gart den Rest. 40–45 Minuten mit Deckel schmoren lassen."
+        - "Mit Soße übergießen und mit frischer Petersilie servieren."
+
+      notes:
+        - "Knoblauch besser pressen für gleichmäßigen Geschmack."
+        - "Paprika müssen nicht komplett in der Soße liegen."
+        - "Bei Bedarf 100–150 ml Wasser oder Brühe nachgießen."
+        - "Alternativ im Ofen bei 180 °C Umluft ca. 40 Minuten garen."
+
+    ru:
+      title: Фаршированные перцы с рисом
+      subtitle: Классические тушёные перцы с мясной начинкой и томатным соусом.
+      label: 🇩🇪 Германия
+      fact: Перцы лучше готовятся, если стоят в соусе лишь наполовину — остальное делает пар.
+      ingredients:
+        - { name: Болгарский перец (красный/жёлтый), amount: 6, unit: шт }
+        - { name: Фарш, amount: 400, unit: г }
+        - { name: Рис, amount: 120, unit: г }
+        - { name: Лук, amount: 1, unit: шт }
+        - { name: Зубчики чеснока, amount: 2, unit: шт }
+        - { name: Яйцо, amount: 1, unit: шт }
+        - { name: Томатная паста, amount: 2, unit: ст.л. }
+        - { name: Рубленые томаты, amount: 400, unit: г }
+        - { name: Овощной бульон, amount: 400, unit: мл }
+        - { name: Масло, amount: 2, unit: ст.л. }
+        - { name: Паприка сладкая, amount: 1, unit: ч.л. }
+        - { name: Орегано сушёный, amount: 1, unit: ч.л. }
+        - { name: Соль, amount: "", unit: по вкусу }
+        - { name: Перец, amount: "", unit: по вкусу }
+        - { name: Петрушка (свежая), amount: "", unit: немного }
+      steps:
+        - Отварить рис 10 минут до полуготовности, откинуть.
+        - Лук мелко нарезать, чеснок выдавить; обжарить в 1 ст.л. масла до мягкости, добавить фарш и обжарить, приправить солью, перцем, паприкой и орегано.
+        - Вмешать рис, 1 ст.л. томатной пасты и яйцо.
+        - Срезать «крышечки» перцев, удалить семена, наполнить фаршем, вернуть крышечки.
+        - Соус: разогреть 1 ст.л. масла, обжарить 1 ст.л. томатной пасты, добавить рубленые томаты и бульон, посолить и поперчить.
+        - Установить перцы в соус, закрыть крышкой и тушить 40–45 минут, соус покрывает перцы наполовину.
+        - Полить соусом и подать с петрушкой.
+
+  - id: spanische-reispfanne
+    category: herzhaft
+    img: img/spanische_reispfanne.jpg
+    time: "35min"
+    diff: 2
+    baseServ: 2
+    suggested: bananen-shake
+    tags:
+      - "🇪🇸 Mediterran"
+      - "🍚 Mit Reis"
+      - "🔥 Pikant"
+    nutrition:
+      cal: 550
+      pro: 45
+      carb: 48
+      fat: 18
+
+    de:
+      title: Spanische Reispfanne mit Hähnchen
+      subtitle: Würzige Reispfanne mit Paprika, Tomaten und mariniertem Hähnchen oder Chorizo.
+      label: 🇪🇸 Spanien
+      fact: Statt Chorizo kannst du mageres Hähnchen verwenden und selbst mediterran marinieren.
+      ingredients:
+        - { name: Hähnchenbrust, amount: 2, unit: Stk, optional: false }
+        - { name: Paprika (rot/gelb), amount: 2, unit: Stk }
+        - { name: Zwiebel, amount: 1, unit: Stk }
+        - { name: Knoblauchzehe, amount: 2, unit: Stk }
+        - { name: Tomate (frisch oder Dose), amount: 1, unit: Stk }
+        - { name: Rundkornreis, amount: 150, unit: g }
+        - { name: Gemüsebrühe, amount: 450, unit: ml }
+        - { name: Olivenöl, amount: 2, unit: EL }
+        - { name: Paprikapulver (edelsüß), amount: 1, unit: TL }
+        - { name: Kreuzkümmel, amount: 0.5, unit: TL }
+        - { name: Oregano (getrocknet), amount: 0.5, unit: TL }
+        - { name: Salz, amount: 1, unit: Prise }
+        - { name: Pfeffer, amount: 1, unit: Prise }
+        - { name: Zitronensaft, amount: 0.5, unit: Stk, optional: true }
+        - { name: Petersilie (frisch), amount: 1, unit: Handvoll, optional: true }
+        - { name: Chorizo (optional), amount: 100, unit: g, optional: true }
+      steps:
+        - Falls Chorizo genutzt wird: Scheiben in 1 EL Öl 2–3 Minuten anbraten, herausnehmen. Ansonsten Hähnchen in 1 EL Öl kurz anrösten und beiseitestellen.
+        - Paprika, Zwiebel und Knoblauch in derselben Pfanne 3–4 Minuten anschwitzen.
+        - Reis einstreuen, 1 Minute rühren. Paprikapulver, Kreuzkümmel, Oregano zufügen, kurz mitrösten.
+        - Tomate und Brühe zugeben, salzen, pfeffern. Aufkochen, dann bei mittlerer Hitze 15–18 Minuten garen, gelegentlich rühren.
+        - Hähnchen/Chorizo zurück in die Pfanne geben, kurz erwärmen. Mit Zitronensaft und Petersilie abschmecken und servieren.
+
+    ru:
+      title: Испанская рисовая сковорода с курицей
+      subtitle: Пряное блюдо с рисом, паприкой, томатами и маринованной курицей или чоризо.
+      label: 🇪🇸 Испания
+      fact: Вместо чоризо можно использовать нежирную куриную грудку с домашним маринадом.
+      ingredients:
+        - { name: Куриная грудка, amount: 2, unit: шт, optional: false }
+        - { name: Перец (красный/желтый), amount: 2, unit: шт }
+        - { name: Лук репчатый, amount: 1, unit: шт }
+        - { name: Чеснок, amount: 2, unit: зубчика }
+        - { name: Помидор (свежий или консерв.), amount: 1, unit: шт }
+        - { name: Рис круглозерный, amount: 150, unit: г }
+        - { name: Овощной бульон, amount: 450, unit: мл }
+        - { name: Оливковое масло, amount: 2, unit: ст.л. }
+        - { name: Паприка сладкая, amount: 1, unit: ч.л. }
+        - { name: Кумин (зира), amount: 0.5, unit: ч.л. }
+        - { name: Орегано сушеный, amount: 0.5, unit: ч.л. }
+        - { name: Соль, amount: 1, unit: щепотка }
+        - { name: Перец черный, amount: 1, unit: щепотка }
+        - { name: Лимонный сок, amount: 0.5, unit: шт, optional: true }
+        - { name: Петрушка свежая, amount: 1, unit: горсть, optional: true }
+        - { name: Чоризо (опционально), amount: 100, unit: г, optional: true }
+      steps:
+        - Если используете чоризо: обжарьте ломтики в 1 ст.л. масла 2–3 минуты, выньте. Для курицы — тоже быстро обжарьте и уберите.
+        - В той же сковороде обжарьте паприку, лук и чеснок 3–4 минуты.
+        - Добавьте рис, помешивайте 1 минуту. Всыпьте паприку, кумин и орегано, слегка прогрейте.
+        - Введите помидор и бульон, посолите и поперчите. Доведите до кипения, затем готовьте на среднем огне 15–18 минут, помешивая.
+        - Верните курицу/чоризо, прогрейте. Добавьте лимонный сок и петрушку, подавайте горячим.
+
+  - id: gnocchi-gorgonzola-chicken
+    category: herzhaft
+    img: img/gnocchi_gorgonzola_opt.jpg
+    time: "25min"
+    diff: 2
+    baseServ: 3
+    suggested: lachs-blaetterteig
+    tags:
+      - "🇮🇹 Italienisch"
+      - "🥣 Cremig"
+      - "Schnelle Küche"
+    nutrition:
+      cal: 720
+      pro: 45
+      carb: 55
+      fat: 35
+
+    de:
+      title: Gnocchi mit Hähnchen in Gorgonzola-Sauce
+      subtitle: Mit Walnüssen und frischem Rucola.
+      label: 🇮🇹 Italien
+      fact: Der cremige Gorgonzola Cremoso sorgt für eine samtige Sauce, die perfekt mit Walnüssen harmoniert.
+      ingredients:
+        - { name: Rummo Gnocchi di Patate, amount: 500, unit: g }
+        - { name: Hähnchenbrustfilet, amount: 250, unit: g }
+        - { name: Rucola, amount: 50, unit: g }
+        - { name: Zwiebel, amount: 100, unit: g }
+        - { name: Gorgonzola Cremoso, amount: 150, unit: g }
+        - { name: Parmigiano Reggiano, amount: 50, unit: g }
+        - { name: Schlagsahne (30–33 %), amount: 150, unit: ml }
+        - { name: Butter, amount: 20, unit: g }
+        - { name: Walnüsse, amount: 50, unit: g }
+        - { name: Weizenmehl Typ 405, amount: 10, unit: g }
+        - { name: Wasser (zum Nachjustieren), amount: 20, unit: ml, opt: true }
+        - { name: Salz, amount: "", unit: n.B. }
+        - { name: Pfeffer, amount: "", unit: n.B. }
+        - { name: Muskat, amount: "", unit: Prise, opt: true }
+        - { name: Zitronensaft, amount: 5, unit: ml, opt: true }
+      steps:
+        - Röste 50 g Walnüsse ohne Öl in einer kleinen Pfanne 2–3 Minuten an, bis sie duften. 1–2 EL zur Deko beiseitelegen.
+        - Schneide 250 g Hähnchenbrust in Streifen. Brate sie in 10 g Butter 3–4 Minuten goldbraun an, salze und pfeffere sie. Herausnehmen.
+        - Gib 10 g Butter in die Pfanne und brate 500 g Gnocchi 4–5 Minuten goldbraun. Alternativ 2 Minuten in Salzwasser garen, dann in Butter schwenken.
+        - Dünste 100 g fein gewürfelte Zwiebel in 10 g Butter 2–3 Minuten glasig. Streue 10 g Mehl darüber, 1 Minute rühren. Mit 150 ml Schlagsahne ablöschen und glatt rühren.
+        - Gib 150 g Gorgonzola in Stücken hinzu, bei niedriger Hitze schmelzen lassen. Dann 50 g geriebenen Parmesan einrühren, mit Salz, Pfeffer und Muskat abschmecken.
+        - Füge Hähnchen und Gnocchi hinzu, vorsichtig vermengen. 40 g der Walnüsse einrühren.
+        - Falls die Sauce zu dick ist, 10–20 ml heißes Wasser einrühren, bis sie cremig-fließend ist.
+        - Auf Tellern anrichten, mit 50 g frischem Rucola belegen, restliche Walnüsse und optional Zitronensaft darübergeben.
+
+    ru:
+      title: Ньокки с курицей в соусе Горгонзола
+      subtitle: С грецкими орехами и свежей рукколой.
+      label: 🇮🇹 Италия
+      fact: Мягкий сыр Горгонзола Кремозо создаёт бархатистый соус, идеально сочетающийся с грецкими орехами.
+      ingredients:
+        - { name: Ньокки из картофеля Rummo, amount: 500, unit: г }
+        - { name: Куриная грудка, amount: 250, unit: г }
+        - { name: Руккола, amount: 50, unit: г }
+        - { name: Лук репчатый, amount: 100, unit: г }
+        - { name: Сыр Горгонзола Кремозо, amount: 150, unit: г }
+        - { name: Сыр Пармиджано Реджано, amount: 50, unit: г }
+        - { name: Сливки (30–33 %), amount: 150, unit: мл }
+        - { name: Сливочное масло, amount: 20, unit: г }
+        - { name: Грецкие орехи, amount: 50, unit: г }
+        - { name: Пшеничная мука тип 405, amount: 10, unit: г }
+        - { name: Вода (для корректировки густоты), amount: 20, unit: мл, opt: true }
+        - { name: Соль, amount: "", unit: по вкусу }
+        - { name: Перец, amount: "", unit: по вкусу }
+        - { name: Мускатный орех, amount: "", unit: щепотка, opt: true }
+        - { name: Лимонный сок, amount: 5, unit: мл, opt: true }
+      steps:
+        - Обжарить 50 г грецких орехов без масла 2–3 минуты, отложить 1–2 ст. л. для украшения.
+        - Нарезать 250 г куриной грудки полосками, обжарить в 10 г сливочного масла 3–4 минуты до золотистой корочки, посолить и поперчить, убрать с огня.
+        - В сковороду добавить 10 г масла и обжарить 500 г ньокки 4–5 минут до золотистой корочки. Или отварить 2 минуты в подсоленной воде и затем обжарить в масле.
+        - Обжарить 100 г мелко нарезанного лука в 10 г масла 2–3 минуты до прозрачности. Добавить 10 г муки, перемешать 1 минуту. Влить 150 мл сливок, размешать до однородности.
+        - Добавить 150 г Горгонзолы кусочками, растопить на слабом огне. Вмешать 50 г натёртого Пармиджано, приправить солью, перцем и мускатным орехом.
+        - Вернуть курицу и ньокки, аккуратно перемешать. Вмешать 40 г орехов.
+        - Если соус стал густым, влить 10–20 мл горячей воды до нужной консистенции.
+        - Разложить по тарелкам, сверху выложить 50 г рукколы, посыпать оставшимися орехами и при желании сбрызнуть лимонным соком.
+
+  - id: gyros-tzatziki
+    category: herzhaft
+    img: img/gyros_tzatziki.jpg
+    time: "45min"
+    diff: 2
+    baseServ: 2
+    suggested: ofenkartoffeln
+    tags:
+      - "🇬🇷 Griechisch"
+      - "🥩 Fleischgericht"
+      - "🧄 Knoblauchliebe"
+      - "🌿 Frisch & Deftig"
+    nutrition:
+      cal: 750
+      pro: 45
+      carb: 45
+      fat: 40
+
+    de:
+      title: Gyros mit Tsatsiki & Pita
+      subtitle: Selbstgemachtes Gyros mit cremigem Tsatsiki, Pita und optional Ofenkartoffeln.
+      label: 🇬🇷 Griechenland
+      fact: In der gleichen Pfanne wie das Fleisch wird Pita extra aromatisch.
+      ingredients:
+        - { name: Hähnchenbrust oder Schweinefilet, amount: 400, unit: g }
+        - { name: Zwiebel, amount: 1, unit: Stk }
+        - { name: Knoblauchzehen, amount: 4, unit: Stk }
+        - { name: Olivenöl, amount: 4, unit: EL }
+        - { name: Zitronensaft, amount: 2, unit: EL }
+        - { name: Oregano (getrocknet), amount: 1, unit: TL }
+        - { name: Thymian (getrocknet), amount: 1, unit: TL }
+        - { name: Paprika edelsüß, amount: 1, unit: TL }
+        - { name: Kreuzkümmel, amount: 0.5, unit: TL }
+        - { name: Griechischer Joghurt (10%), amount: 500, unit: g }
+        - { name: Salatgurke, amount: 1, unit: Stk }
+        - { name: Pita-Brote oder Fladenbrot, amount: 2, unit: Stk }
+        - { name: Tomate, amount: 1, unit: Stk }
+        - { name: Rote Zwiebel, amount: 0.5, unit: Stk }
+        - { name: "Salz & Pfeffer", amount: "", unit: n.B. }
+        - { name: "Optional: Dill oder Minze", amount: etwas, unit: "-" }
+      steps:
+        - Fleisch in Streifen schneiden, mit 2 EL Öl, Zitronensaft, Oregano, Thymian, Paprika, Kreuzkümmel, Salz und Pfeffer marinieren (mind. 20 Minuten).
+        - Gurke grob reiben, ausdrücken; mit Joghurt, 2 gepressten Knoblauchzehen, Salz, Pfeffer und optional Dill/Minze verrühren.
+        - Fleisch in heißer Pfanne in 1–2 Portionen 6–8 Minuten kräftig anbraten.
+        - Pita in derselben Pfanne kurz erwärmen. Tomate und rote Zwiebel in Scheiben schneiden.
+        - Pita mit Fleisch, Tsatsiki, Tomate und Zwiebel füllen/servieren.
+
+    ru:
+      title: Гирос с цацики и пита
+      subtitle: Домашний гирос с соусом цацики, лавашом и запечённой картошкой.
+      label: 🇬🇷 Греция
+      fact: Подогрев пита в той же сковороде, где было мясо, делает её особенно вкусной.
+      ingredients:
+        - { name: Куриное филе или свинина, amount: 400, unit: г }
+        - { name: Лук репчатый, amount: 1, unit: шт }
+        - { name: Зубчики чеснока, amount: 4, unit: шт }
+        - { name: Оливковое масло, amount: 4, unit: ст.л. }
+        - { name: Лимонный сок, amount: 2, unit: ст.л. }
+        - { name: Орегано (сушёный), amount: 1, unit: ч.л. }
+        - { name: Тимьян (сушёный), amount: 1, unit: ч.л. }
+        - { name: Паприка сладкая, amount: 1, unit: ч.л. }
+        - { name: Зира, amount: 0.5, unit: ч.л. }
+        - { name: Греческий йогурт (10%), amount: 500, unit: г }
+        - { name: Огурец, amount: 1, unit: шт }
+        - { name: Пита или лепёшка, amount: 2, unit: шт }
+        - { name: Помидор, amount: 1, unit: шт }
+        - { name: Красный лук, amount: 0.5, unit: шт }
+        - { name: Соль и перец, amount: по вкусу, unit: "-" }
+        - { name: "По желанию: укроп или мята", amount: немного, unit: "-" }
+      steps:
+        - Нарезать мясо полосками, замариновать в 2 ст.л. масла, лимонном соке, орегано, тимьяне, паприке, зире, соли и перце минимум 20 минут.
+        - Огурец натереть крупно, отжать; смешать с йогуртом, 2 зубчиками прессованного чеснока, солью, перцем и укропом/мятой по желанию.
+        - Обжарить мясо партиями 6–8 минут до румяности.
+        - В той же сковороде прогреть питы. Нарезать помидор и красный лук.
+        - Подавайте: питы с мясом, цацики, помидором и луком.
+
+    extras:
+      - title: Целые картошки в аэрогриле
+        steps:
+          - Вымойте картошки, проколите вилкой.
+          - По желанию смажьте маслом.
+          - Готовьте в аэрогриле при 190–200 °C 35–45 мин.
+          - Разрежьте, посолите, сверху положите цацики.
+      - title: Первая помощь при переедании
+        tips:
+          - Не ложитесь — лучше сидите прямо.
+          - Пройдитесь 5–10 минут.
+          - Выпейте мятный или травяной чай.
+          - Глубоко дышите, расстегните ремень.
+          - Не доедайте — вы уже чемпион.
+
+  - id: mediterrane-tomaten-paprika-suppe
+    category: herzhaft
+    img: img/mediterrane_tomaten_paprika_suppe_opt.jpg
+    time: "45min"
+    diff: 2
+    baseServ: 3
+    suggested: baguette
+    tags:
+      - "🇪🇸 Mediterran"
+      - "🥣 Suppe"
+      - "💪 Proteinreich"
+    nutrition:
+      cal: 610
+      pro: 38
+      carb: 34
+      fat: 34
+
+    de:
+      title: Mediterrane Tomaten-Paprika-Suppe mit Hackbällchen
+      subtitle: Aromatische Suppe mit gerösteter Paprika, Tomaten und würzigen Hackbällchen.
+      label: 🇪🇸 Mittelmeer
+      fact: Durch das Rösten der Paprika entfaltet sich ihr volles, süßliches Aroma.
+      ingredients:
+        - { name: Rote Paprika, amount: 4, unit: Stk }
+        - { name: Tomaten oder stückige Tomaten (Dose), amount: 400, unit: g }
+        - { name: Zwiebel, amount: 1, unit: Stk }
+        - { name: Knoblauchzehen, amount: 2, unit: Stk }
+        - { name: Olivenöl, amount: 2, unit: EL }
+        - { name: Gemüsebrühe, amount: 500, unit: ml }
+        - { name: Paprikapulver (edelsüß), amount: 1, unit: TL }
+        - { name: Kreuzkümmel (optional), amount: 0.5, unit: TL }
+        - { name: Salz, amount: 1, unit: Prise }
+        - { name: Pfeffer, amount: 1, unit: Prise }
+        - { name: Gemischtes Hackfleisch, amount: 400, unit: g }
+        - { name: Ei, amount: 1, unit: Stk }
+        - { name: Semmelbrösel, amount: 2, unit: EL }
+        - { name: Getrockneter Oregano, amount: 1.5, unit: TL }
+        - { name: Zwiebel (fein gewürfelt, optional), amount: 1, unit: klein }
+        - { name: Petersilie oder Basilikum, amount: 1, unit: Bund }
+        - { name: Baguette oder Ciabatta (optional), amount: 1, unit: Beilage }
+
+      steps:
+        - Röste 4 halbierte, entkernte Paprika mit 1 EL Olivenöl bei 220 °C etwa 20 Minuten, bis die Haut Blasen wirft. Danach Haut abziehen.
+        - Zwiebel und Knoblauch in 1 EL Olivenöl glasig anschwitzen.
+        - Geröstete Paprika und Tomaten zugeben, 500 ml Gemüsebrühe, Paprikapulver, Kreuzkümmel, Salz und Pfeffer hinzufügen und 10 Minuten köcheln lassen.
+        - Suppe vom Herd ziehen und mit dem Stabmixer cremig pürieren.
+        - Hackfleisch mit Ei, Semmelbrösel, Oregano, Salz, Pfeffer und optional Zwiebel zu einer Masse verkneten. Kleine Bällchen formen.
+        - Bällchen in einer Pfanne goldbraun anbraten, danach in die Suppe geben und bei kleiner Hitze 10 Minuten garziehen lassen.
+        - Mit frischen Kräutern bestreuen und mit Baguette servieren.
+
+      tip: Röstaromen aus der Pfanne mit etwas Brühe ablöschen und in die Suppe geben – bringt zusätzliches Aroma.
+
+    ru:
+      title: Средиземноморский томатно-перечный суп с фрикадельками
+      subtitle: Ароматный суп с запечённым перцем, помидорами и сочными фрикадельками.
+      label: 🇪🇸 Средиземноморье
+      fact: При запекании перца его вкус становится сладким и насыщенным.
+      ingredients:
+        - { name: Красный болгарский перец, amount: 4, unit: шт }
+        - { name: Помидоры или резаные томаты (консервы), amount: 400, unit: г }
+        - { name: Лук репчатый, amount: 1, unit: шт }
+        - { name: Чеснок, amount: 2, unit: зуб }
+        - { name: Оливковое масло, amount: 2, unit: ст.л. }
+        - { name: Овощной бульон, amount: 500, unit: мл }
+        - { name: Паприка сладкая, amount: 1, unit: ч.л. }
+        - { name: Тмин (по желанию), amount: 0.5, unit: ч.л. }
+        - { name: Соль, amount: 1, unit: щепотка }
+        - { name: Перец чёрный, amount: 1, unit: щепотка }
+        - { name: Фарш смешанный (говядина+свинина), amount: 400, unit: г }
+        - { name: Яйцо, amount: 1, unit: шт }
+        - { name: Панировочные сухари, amount: 2, unit: ст.л. }
+        - { name: Орегано сушёный, amount: 1.5, unit: ч.л. }
+        - { name: Мелко нарезанный лук (по желанию), amount: 1, unit: маленький }
+        - { name: Петрушка или базилик, amount: 1, unit: пучок }
+        - { name: Багет или чиабатта (по желанию), amount: 1, unit: гарнир }
+
+      steps:
+        - Разрежь перцы пополам, удали семена и смажь 1 ст.л. масла. Запеки при 220 °C около 20 минут до образования пузырей на кожице, затем сними кожицу.
+        - Обжарь лук и чеснок до мягкости.
+        - Добавь перцы и помидоры, влей бульон, добавь специи и вари 10 минут.
+        - Сними с огня и измельчи погружным блендером до кремовой консистенции.
+        - Смешай фарш с яйцом, сухарями, орегано, солью, перцем и луком. Сформируй маленькие шарики.
+        - Обжарь их до румяной корочки, затем добавь в суп и вари ещё 10 минут на слабом огне.
+        - Укрась зеленью и подай с багетом.
+
+      tip: Добавь немного жидкости из сковороды после обжаривания в суп – так получится насыщеннее.
+  - id: hackfleisch-curry
+    category: herzhaft
+    img: img/hackfleisch_curry_opt.jpg
+    time: "30min"
+    diff: 2
+    baseServ: 3
+    suggested: bananen-shake
+    tags:
+      - "🇮🇳 Asiatisch"
+      - "🥥 Mit Kokosmilch"
+      - "Schnell & Würzig"
+    nutrition:
+      cal: 690
+      pro: 36
+      carb: 45
+      fat: 38
+
+    de:
+      title: Hackfleisch-Curry mit Jasminreis
+      subtitle: Cremiges Curry mit Kokosmilch und Gemüse.
+      label: 🇮🇳 Indien
+      fact: Currypulver entfaltet sein volles Aroma, wenn es kurz angeröstet wird – aber auch später hinzugefügt schmeckt es wunderbar rund.
+      ingredients:
+        - { name: Jasminreis (Kochbeutel), amount: 1.5, unit: Beutel }
+        - { name: Hackfleisch (Rind oder gemischt), amount: 450, unit: g }
+        - { name: Zwiebel, amount: 1.5, unit: Stk }
+        - { name: Knoblauchzehen, amount: 3, unit: Stk }
+        - { name: Ingwer, amount: 3, unit: cm }
+        - { name: Kokosmilch, amount: 400, unit: ml }
+        - { name: Tomatenmark, amount: 1.5, unit: EL }
+        - { name: Currypulver, amount: 3, unit: TL }
+        - { name: TK-Gemüse (California Style), amount: 250, unit: g }
+        - { name: Öl (Rapsöl empfohlen), amount: 1.5, unit: EL }
+        - { name: Salz, amount: "-", unit: nach Geschmack }
+        - { name: Pfeffer, amount: "-", unit: nach Geschmack }
+        - { name: Chili, amount: "-", unit: optional }
+        - { name: Petersilie oder Koriander (frisch), amount: "-", unit: optional }
+      preparation:
+        - "Zwiebel (1.5 Stk) fein würfeln."
+        - "Knoblauch (3 Zehen) pressen oder sehr fein hacken."
+        - "Ingwer (3 cm) mit einem Löffel schälen und fein reiben."
+        - "TK-Gemüse (250 g) bereitstellen."
+        - "Reisbeutel (1.5 Stk) mit leicht gesalzenem Wasser vorbereiten."
+      steps:
+        - "Wasser zum Kochen bringen, Kochbeutel Reis hineingeben (12–15 Minuten garen)."
+        - "Währenddessen Öl (1.5 EL) in einer großen Pfanne erhitzen, Zwiebel, Knoblauch und Ingwer 2–3 Minuten glasig anschwitzen."
+        - "Hackfleisch (450 g) dazugeben, kräftig anbraten, mit Salz und Pfeffer würzen."
+        - "Tomatenmark (1.5 EL) und Currypulver (3 TL) dazugeben, 1 Minute mitrösten, falls vergessen: später nachwürzen."
+        - "Mit Kokosmilch (400 ml) ablöschen, gut verrühren und TK-Gemüse (250 g) hinzufügen."
+        - "8–10 Minuten köcheln lassen, ggf. etwas Wasser oder Brühe zugeben."
+        - "Mit Salz, Pfeffer und Chili abschmecken."
+        - "Reis abgießen, mit einem Schuss Rapsöl (ca. 1 TL) mischen, um ihn locker und aromatisch zu halten."
+        - "Reis auf Teller geben, Curry darüber, optional mit Petersilie oder Koriander bestreuen."
+    tips:
+      - "Rapsöl ist ideal, um den Reis aromatisch und locker zu halten, ohne den Geschmack des Currys zu überdecken."
+      - "Currypulver entwickelt beim Anrösten ein kräftigeres Aroma, schmeckt aber auch, wenn es später hinzugefügt wird."
+      - "Reis kann bis zu 3 Stunden stehen – mit etwas Öl bleibt er locker. Bei längerer Standzeit lieber abgedeckt im Kühlschrank lagern und mit einem Schuss Wasser wieder aufwärmen."
+
+    ru:
+      title: Карри с фаршем и жасминовым рисом
+      subtitle: Ароматное карри с кокосовым молоком и овощами.
+      label: 🇮🇳 Индия
+      fact: Карри-порошок раскрывает вкус при обжарке, но даже если добавить его позже, получится мягкий и насыщенный вкус.
+      ingredients:
+        - { name: Рис жасмин (в пакетиках), amount: 1.5, unit: пак }
+        - { name: Фарш (говяжий или смешанный), amount: 450, unit: г }
+        - { name: Лук, amount: 1.5, unit: шт }
+        - { name: Зубчики чеснока, amount: 3, unit: шт }
+        - { name: Имбирь, amount: 3, unit: см }
+        - { name: Кокосовое молоко, amount: 400, unit: мл }
+        - { name: Томатная паста, amount: 1.5, unit: ст.л. }
+        - { name: Карри-порошок, amount: 3, unit: ч.л. }
+        - { name: Замороженные овощи (California Style), amount: 250, unit: г }
+        - { name: Масло (рекомендуется рапсовое), amount: 1.5, unit: ст.л. }
+        - { name: Соль, amount: "-", unit: по вкусу }
+        - { name: Перец, amount: "-", unit: по вкусу }
+        - { name: Чили, amount: "-", unit: по желанию }
+        - { name: Петрушка или кинза (свежая), amount: "-", unit: по желанию }
+      preparation:
+        - "Мелко нарезать лук (1.5 шт)."
+        - "Чеснок (3 зубчика) выдавить через пресс или очень мелко нарезать."
+        - "Имбирь (3 см) очистить чайной ложкой и натереть на мелкой тёрке."
+        - "Подготовить замороженные овощи (250 г)."
+        - "Приготовить кастрюлю с подсоленной водой для 1.5 пакетов риса."
+      steps:
+        - "Закипятить воду и варить рис 12–15 минут в пакетах."
+        - "Пока варится рис, нагреть масло (1.5 ст.л.) в большой сковороде, обжарить лук, чеснок и имбирь 2–3 минуты."
+        - "Добавить фарш (450 г), хорошо обжарить, посолить и поперчить."
+        - "Добавить томатную пасту (1.5 ст.л.) и карри-порошок (3 ч.л.), обжарить 1 минуту. Если забыли — можно добавить позже."
+        - "Влить кокосовое молоко (400 мл), перемешать, добавить овощи (250 г)."
+        - "Тушить 8–10 минут, при необходимости добавить немного воды или бульона."
+        - "Посолить, поперчить и приправить чили."
+        - "Готовый рис смешать с небольшим количеством рапсового масла (около 1 ч.л.), чтобы он не слипался и остался ароматным."
+        - "Подавать рис с карри, украсив петрушкой или кинзой."
+      tips:
+        - "Рапсовое масло лучше всего подходит, чтобы рис оставался рассыпчатым и не перебивал вкус карри."
+        - "Карри-порошок лучше обжарить до добавления жидкости, но даже если добавить позже — получится вкусно."
+        - "Если рис нужно оставить на 3 часа, перемешайте с маслом; при более долгом хранении держите в холодильнике и разогрейте с ложкой воды или бульона."
