@@ -1,5 +1,5 @@
 recipes:
-    - id: coq-au-vin-roman
+  - id: coq-au-vin
     category: herzhaft
     img: img/coq_au_vin_opt.jpg
     time: "1h 45min"
