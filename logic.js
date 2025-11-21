@@ -255,10 +255,14 @@ function renderRecipe(id) {
         <ol class="steps-list">
             ${content.steps.map(s => `<li>${s}</li>`).join("")}
         </ol>
-        <div class="notes-section">
-            <h3>${t("notes")}</h3>
-            <textarea class="notes-area" id="user-notes" placeholder="${t("")}"></textarea>
+        ${recipe.tips && recipe.tips.length ? `
+        <div class="tips-section" style="margin-top:2.5rem;">
+            <h3 style="color:var(--primary);">${t("tips") || "Tipps"}</h3>
+            <ul style="margin:0; padding-left:1.2rem;">
+                ${recipe.tips.map(tip => `<li>${tip}</li>`).join("")}
+            </ul>
         </div>
+        ` : ""}
     `;
 
     main.appendChild(left);
@@ -267,9 +271,7 @@ function renderRecipe(id) {
     renderIngredients();
     checkFavoriteStatus();
 
-    const savedNote = localStorage.getItem('note_' + id);
-    if(savedNote) document.getElementById("user-notes").value = savedNote;
-    document.getElementById("user-notes").oninput = (e) => localStorage.setItem('note_' + id, e.target.value);
+    // Notes section removed; no longer storing or rendering personal notes
 }
 
 /* =================================================================
